@@ -1,18 +1,33 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 50px;
+    background-color: #feebd3;
+    color: #3e2300
 }
-ul li {
+ul li { /* list items */
     padding-bottom: 7px; 
 }
 span {
     display: block;
     padding-bottom: 5px; 
 }
+hr { /* border lines */
+    background-color: #ad6100;
+    border: none;
+    height: 1.5px;
+}
+a:link { /* unvisted links */
+    color: #955300;
+    background-color: transparent;
+}
+a:visited { /* visited links */
+    color: #955300;
+    background-color: transparent;
+  }
 .projectDiv {
     border-style: solid;
-    border-color: #a9b9b9;
+    border-color: #ad6100;
     border-radius: 25px;
-    padding: 7px 7px 7px 7px;
+    padding: 0px 7px 7px 7px;
     margin-bottom: 7px;
 }
